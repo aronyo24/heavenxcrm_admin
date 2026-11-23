@@ -11,7 +11,7 @@ system. The backend is `../heavenxcrm_api` (`apps/control`); see
 ```bash
 npm install
 npm run dev      # http://localhost:5175 (proxies /api to Django on :8000)
-npm run build    # dist/ -> serve on control.heavenxcrm.com
+npm run build    # dist/ -> serve on dev.heavenxcrm.com
 ```
 
 Sign in with a developer account (`python manage.py create_developer ...`).
